@@ -228,7 +228,7 @@ namespace Calcpad.Core
         {
             Calculator.NegChar => "-",
             '-' => " − ",
-            '*' => "·",
+            '*' => "×",
             '/' => "/",
             '÷' => "/",
             '<' => " < ",
