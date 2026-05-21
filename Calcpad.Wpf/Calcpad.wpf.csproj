@@ -524,7 +524,7 @@
 	<EmbeddedResource Update="AppMessages.zh.resx">
       <DependentUpon>AppMessages.resx</DependentUpon>
     </EmbeddedResource>
-	<EmbeddedResource Update="ConstantsResourceszhbg.resx">
+	<EmbeddedResource Update="ConstantsResources.zh.resx">
       <DependentUpon>ConstantsResources.resx</DependentUpon>
     </EmbeddedResource>
 	<EmbeddedResource Update="FindReplaceResources.zh.resx">
