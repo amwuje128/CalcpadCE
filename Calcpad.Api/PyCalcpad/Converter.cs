@@ -1,4 +1,4 @@
-﻿using Calcpad.OpenXml;
+using Calcpad.OpenXml;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -55,7 +55,7 @@ namespace Calcpad
             {
                 FileName = wkhtmltopdfPath
             };
-            const string s = " --enable-local-file-access --disable-smart-shrinking --page-size A4  --margin-bottom 15 --margin-left 15 --margin-right 10 --margin-top 15 ";
+            const string s = " --enable-local-file-access --disable-smart-shrinking --page-size A4  --margin-bottom 15 --margin-left 15 --margin-right 10 --margin-top 15 --footer-right [page]/[topage] --footer-font-size 10 --footer-spacing 5 ";
             if (htmlFile.Contains(' ', StringComparison.Ordinal))
                 startInfo.Arguments = s + '\"' + htmlFile + "\" \"" + path + '\"';
             else
